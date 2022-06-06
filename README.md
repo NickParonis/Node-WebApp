@@ -1,6 +1,6 @@
 # Base of Website application
 - Project is created with MVC architecture
-- Build with node. Using express framework as well as EJS for the Views and Partial Views
+- Build with node. Using express framework for http and routing and EJS for the Views and Partial Views
 
 
 ### Software prerequisites

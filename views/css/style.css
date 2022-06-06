@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ozwald', sans-serif;
+}
+body{
+  justify-content: space-between;
+  display: flex;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: #434750;
+  overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+}
+.content{
+  position: absolute;
+  top: 40%;
+  left: 29%;
+  width: 500px;
+  border: 2px solid red;
+}
+
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+

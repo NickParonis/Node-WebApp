@@ -1,6 +1,7 @@
 # Backend base for web application.
 - NodeJS stack. Express framework for http and routing. EJS for the Views and Partial Views
 - Model View Controller architecture
+- JS fade animations between pages and CSS animated navbar
 
 
 ### Software prerequisites
